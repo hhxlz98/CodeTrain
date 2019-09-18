@@ -21,6 +21,7 @@
     
 //    [[self.window contentView] isFlipped] = YES;
     
+    /* 这里初始化时可以自行更改NSView的类别 */
     NSView *blueView = [[FlippedView alloc] initWithFrame:NSMakeRect(30, 50, 250, 300)];
     blueView.wantsLayer = YES;
     [blueView.layer setBackgroundColor:[NSColor blueColor].CGColor];
